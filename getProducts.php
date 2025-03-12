@@ -11,7 +11,7 @@ header('Content-Type: application/json');
  * connexion à la base de données
  */
 try {
-    $connexion = new PDO('mysql:host=db5017430365.hosting-data.io;dbname=dbs13979263','dbu2377481','SfY5f79TKAqHNScB3s&w');
+    $connexion = new PDO('mysql:db5017457386.hosting-data.io;dbname=dbs14004465','dbu1163122','kkQ5PSd9U%y7LU');
     $retour["success"] = true;
 }
 catch(Exception $ex) {
